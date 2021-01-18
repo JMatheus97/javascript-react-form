@@ -1,0 +1,35 @@
+
+input{
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    height: 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(0, 0, 0, .6);
+    font-size: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+input:hover{
+    border: 1px solid rgba(0, 47, 255, .7);
+}
+
+
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(1, 216, 1);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid  rgb(0, 0, 0, .3) ;
+}
+
+
+button:hover{
+    background-color: rgb(0, 170, 0);
+    box-shadow: inset;
+}
